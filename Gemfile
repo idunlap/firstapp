@@ -30,6 +30,8 @@ gem 'twitter', '~> 5.16'
 
 gem 'bootstrap-sass'
 
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -58,8 +60,8 @@ end
 group :production do
 
 	gem 'pg'
-	gem 'rails_12factor'
-	gem 'unicorn'
+	#gem 'rails_12factor'
+	#gem 'unicorn', '~> 5.1'
 	end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

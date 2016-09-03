@@ -11,6 +11,10 @@ get 'visitors/index' => 'visitor#index'
 #Used from Stripe.com for payment processies
   resources :charges
 
+  resources :posts
+
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
