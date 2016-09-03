@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+
 gem "stripe"
 
 gem "figaro"
