@@ -5,7 +5,11 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
 get 'visitors/index' => 'visitor#index'
 
-  ######get '/about', to: 'pages#about'
+  #get '/about', to: 'pages#about'
+
+
+#Used from Stripe.com for payment processies
+  resources :charges
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
